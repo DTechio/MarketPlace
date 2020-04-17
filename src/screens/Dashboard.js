@@ -21,7 +21,7 @@ const Dashboard = () => (
       <View style={styles.viewHeader}>
         {/* <PhotoPerfil/> */}
         <Text style={styles.nameText}>
-          Maria José <Text style={styles.karmaText}>(+5)</Text>
+          Maria Teste <Text style={styles.karmaText}>(+5)</Text>
         </Text>
 
         <TouchableOpacity onPress={onPressLog}>
