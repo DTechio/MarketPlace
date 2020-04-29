@@ -7,10 +7,13 @@ const PhotoPerfil = () => (
 
 const styles = StyleSheet.create({
   image: {
-    width: 128,
-    height: 128,
-    marginBottom: 12,
+    marginLeft: 0,
+    width: 30,
+    height: 30,
+    borderRadius: 200,
+    borderWidth: 0.5,
+    borderColor: '#000',
   },
 });
 
-export default memo(Logo);
+export default memo(PhotoPerfil);
