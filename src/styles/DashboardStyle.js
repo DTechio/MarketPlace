@@ -51,10 +51,11 @@ const styles = StyleSheet.create({
       alignSelf: 'center',
       width: 200,
       height: 200,
-      borderColor: '#000',
-      borderWidth: 1,
+      borderColor: '#737380',
+      borderWidth: 0.4,
     },
   
+
     // posts
   
     postMarket: {
@@ -104,13 +105,15 @@ const styles = StyleSheet.create({
       fontSize: 17,
       color: '#292929',
       fontWeight: 'bold',
+      alignSelf: 'flex-end',
     },
   
     postValue2: {
       marginTop: 4,
       fontSize: 18,
       marginBottom: 24,
-      color: '#292929'
+      color: '#292929',
+      alignSelf: 'flex-end',
     },
   
     postDesc: {
@@ -118,6 +121,17 @@ const styles = StyleSheet.create({
       fontSize: 15,
       marginBottom: 12,
       color: '#737380'
+    },
+
+    slideView: {
+      alignItems: 'center',
+      justifyContent: 'space-between',
+    },
+
+    contentContainer: {
+      width: '${100 * 3}%',
+      justifyContent: 'space-between',
+      alignItems: 'center',
     },
   
     detailsButton: {
@@ -132,6 +146,9 @@ const styles = StyleSheet.create({
       fontSize: 15,
       fontWeight: 'bold'
     },
+
+    // SLIDE @@@@@@@@@@@@@@@@@@
+
   });
   
   export default styles;
