@@ -123,11 +123,6 @@ const styles = StyleSheet.create({
       color: '#737380'
     },
 
-    slideView: {
-      alignItems: 'center',
-      justifyContent: 'space-between',
-    },
-
     contentContainer: {
       width: '${100 * 3}%',
       justifyContent: 'space-between',

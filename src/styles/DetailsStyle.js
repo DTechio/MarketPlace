@@ -145,6 +145,13 @@ export default StyleSheet.create({
         color: '#737380'
       },
 
+      postLongDesc: {
+        marginTop: 4,
+        fontSize: 15,
+        marginBottom: 12,
+        color: '#737380'
+      },
+
     // ----------------
 
     contactBox:{
